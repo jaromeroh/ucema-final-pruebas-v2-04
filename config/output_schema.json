@@ -1,0 +1,47 @@
+{
+  "type": "object",
+  "properties": {
+    "scenario": {
+      "type": "string"
+    },
+    "summary": {
+      "type": "string"
+    },
+    "slots": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "start": {
+            "type": "string"
+          },
+          "end": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "start",
+          "end"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "next_action": {
+      "type": "string"
+    },
+    "requires_human_approval": {
+      "type": "boolean",
+      "enum": [
+        true
+      ]
+    }
+  },
+  "required": [
+    "scenario",
+    "summary",
+    "slots",
+    "next_action",
+    "requires_human_approval"
+  ],
+  "additionalProperties": false
+}

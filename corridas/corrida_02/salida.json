@@ -1,0 +1,7 @@
+{
+  "scenario": "02",
+  "summary": "Sin horarios comunes dentro de la ventana indicada (09:00–10:00 UTC) para 30 minutos: Persona A está ocupada toda la ventana; Persona B disponible.",
+  "slots": [],
+  "next_action": "Ampliar la ventana de búsqueda o reducir restricciones (ej. cambiar duración o avisar a Persona A) y volver a solicitar.",
+  "requires_human_approval": true
+}

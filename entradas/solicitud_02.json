@@ -1,0 +1,4 @@
+{
+  "scenario": "02",
+  "request": "Encontrar hasta tres horarios comunes para una reunión de equipo. Usar disponibilidad y duración del archivo local. No reservar ni enviar invitaciones."
+}

@@ -1,0 +1,16 @@
+{
+  "scenario": "03",
+  "summary": "Encontré dos franjas de 60 minutos dentro de la ventana solicitada (UTC). Ambas cumplen con la disponibilidad de los asistentes según el archivo local.",
+  "slots": [
+    {
+      "start": "2026-09-10T13:30:00+00:00",
+      "end": "2026-09-10T14:30:00+00:00"
+    },
+    {
+      "start": "2026-09-10T14:00:00+00:00",
+      "end": "2026-09-10T15:00:00+00:00"
+    }
+  ],
+  "next_action": "Revisar y aprobar una de las franjas; si ninguna convence, ampliar la ventana o modificar restricciones de asistentes.",
+  "requires_human_approval": true
+}

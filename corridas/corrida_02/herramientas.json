@@ -1,0 +1,34 @@
+[
+  {
+    "name": "find_common_slots",
+    "arguments": {
+      "scenario": "02"
+    },
+    "observation": {
+      "scenario": "02",
+      "source": "datos/agenda_02.json",
+      "agenda": {
+        "window_start": "2026-09-10T09:00:00+00:00",
+        "window_end": "2026-09-10T10:00:00+00:00",
+        "duration_minutes": 30,
+        "attendees": [
+          {
+            "name": "Persona A",
+            "busy": [
+              [
+                "2026-09-10T09:00:00+00:00",
+                "2026-09-10T10:00:00+00:00"
+              ]
+            ]
+          },
+          {
+            "name": "Persona B",
+            "busy": []
+          }
+        ]
+      },
+      "slots": [],
+      "timezone": "UTC"
+    }
+  }
+]

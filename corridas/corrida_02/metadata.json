@@ -1,0 +1,31 @@
+{
+  "timestamp_utc": "2026-09-09T17:41:41.333051+00:00",
+  "requested_model": "gpt-5-mini-2025-08-07",
+  "returned_models": [
+    "gpt-5-mini-2025-08-07",
+    "gpt-5-mini-2025-08-07"
+  ],
+  "api_calls": 2,
+  "input_tokens": 1174,
+  "output_tokens": 125,
+  "cost_usd": 0.0005434999999999999,
+  "latency_seconds": 4.176288126036525,
+  "status": "validated",
+  "source_sha256": {
+    "src/main.py": "4d367f3e1b07844dec242dc1c9c914a4e3f1fed29ad5f55634f1bba8758beb9c",
+    "src/runtime.py": "eb4ffd4caaf5f5c4f93e79107e7ac458cd581579e3393de906266a8184ac6a28",
+    "src/tools.py": "b7abc6d28b293ff17715cba98f903b68485700478ee08ae66b15ee6b882d70b7",
+    "prompts/system_prompt.md": "d881bc3520b9adbb5f76d03d4f63c713c3477a1d6d554aae4d479833a05783a9",
+    "prompts/user_prompt.md": "4489fe8239b58f1373bc58d76ab718de5b65d3a661de24f52f0a20f973e332db",
+    "datos/agenda_01.json": "6ece5d81f76183ce2264b39b17d555b10ba19e6e6a99fa529411cd88f64bf1ed",
+    "datos/agenda_02.json": "7f63b3d5e03fb3b9fecd734858aeb106e2ace033c5a2be3a726641e9753c152a",
+    "datos/agenda_03.json": "73d149e02cae024d9e0c3cb6ec303fc3ae39917a76972ada3d20550eac367be6"
+  },
+  "pricing": {
+    "input_per_million_usd": 0.25,
+    "cached_input_per_million_usd": 0.025,
+    "output_per_million_usd": 2.0,
+    "source": "https://developers.openai.com/api/docs/models/gpt-5-mini",
+    "checked_date": "2026-09-09"
+  }
+}
